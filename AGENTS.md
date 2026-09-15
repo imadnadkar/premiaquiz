@@ -32,7 +32,10 @@ npm run start
 # Lint JavaScript
 npm run lint:js
 
-# Format JavaScript
+# Lint CSS
+npm run lint:css
+
+# Format JavaScript and CSS
 npm run format
 
 # Run PHP tests
@@ -40,6 +43,15 @@ npm run format
 
 # Run JavaScript tests
 npm test
+
+# Run JavaScript tests in watch mode
+npm run test:watch
+
+# Run JavaScript tests with coverage
+npm run test:coverage
+
+# Update WordPress packages
+npm run packages-update
 ```
 
 ## Specs

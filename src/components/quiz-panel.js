@@ -41,7 +41,10 @@ const QuizPanel = () => {
 					setSelectedQuiz( quiz || null );
 				} }
 			/>
-			<Button variant="secondary" href="/wp-admin/admin.php?page=premiaquiz">
+			<Button
+				variant="secondary"
+				href="/wp-admin/admin.php?page=premiaquiz"
+			>
 				{ __( 'Manage Quizzes', 'premiaquiz' ) }
 			</Button>
 		</div>

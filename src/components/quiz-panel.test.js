@@ -4,7 +4,7 @@ import { render, screen, waitFor } from '@testing-library/react';
 import QuizPanel from './quiz-panel';
 
 // Mock the global fetch
-global.fetch = jest.fn(() =>
+global.fetch = jest.fn( () =>
 	Promise.resolve( {
 		json: () => Promise.resolve( [] ),
 	} )

@@ -12,7 +12,7 @@ _These are recommendations to keep your build orderly, not requirements. Skip an
 | # | Feature | Phase | Status |
 |---|---------|-------|--------|
 | 1 | Stack & architecture | Foundation | in-progress |
-| 2 | Coding standards & tooling | Foundation | planned |
+| 2 | Coding standards & tooling | Foundation | in-progress |
 | 3 | Data model | Foundation | in-progress |
 | 4 | Design system & UI foundation | Foundation | planned |
 | 5 | Core quiz/survey loop | Slice 1 | planned |
@@ -45,7 +45,7 @@ Decide the stack and scaffold a runnable WordPress plugin so every later slice b
 - [ ] Test it: `/test stack & architecture`
 Spec 0001 · code in `plugins/premiaquiz/`
 
-### 2. Coding standards & tooling
+### 2. Coding standards & tooling · in-progress
 Capture conventions, then install lint, format, and pre-commit enforcement from the real scaffolded project.
 **Done when:** root `AGENTS.md` reflects the real stack, and lint/format/pre-commit run clean.
 - [x] Capture conventions + tooling choices: `/audit`
