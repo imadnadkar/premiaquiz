@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<ruleset name="PremiaQuiz">
+	<description>PHPCS rules for PremiaQuiz plugin</description>
+
+	<rule ref="WordPress">
+		<exclude name="WordPress.Files.FileName.InvalidClassFileName"/>
+		<exclude name="WordPress.Files.FileName.NotHyphenatedLowercase"/>
+		<exclude name="WordPress.NamingConventions.PrefixAllGlobals.PrefixInHookNameRequired"/>
+	</rule>
+
+	<rule ref="WordPress.NamingConventions.PrefixAllGlobals">
+		<properties>
+			<property name="prefixes" type="array">
+				<element value="premiaquiz"/>
+				<element value="PremiaQuiz"/>
+			</property>
+		</properties>
+	</rule>
+
+	<file>./includes</file>
+	<file>./premiaquiz.php</file>
+
+	<config name="minimum_supported_wp_version" value="6.0"/>
+	<config name="testVersion" value="8.0-"/>
+</ruleset>

@@ -1,0 +1,47 @@
+/**
+ * Premia Quiz Admin Styles
+ *
+ * @package PremiaQuiz
+ */
+
+.premiaquiz-admin {
+	max-width: 800px;
+	margin: 20px auto;
+}
+
+.premiaquiz-admin h1 {
+	margin-bottom: 20px;
+}
+
+.premiaquiz-admin .premiaquiz-card {
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	border-radius: 4px;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+.premiaquiz-admin .premiaquiz-form-group {
+	margin-bottom: 15px;
+}
+
+.premiaquiz-admin .premiaquiz-form-group label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: 600;
+}
+
+.premiaquiz-admin .premiaquiz-form-group input,
+.premiaquiz-admin .premiaquiz-form-group textarea,
+.premiaquiz-admin .premiaquiz-form-group select {
+	width: 100%;
+	max-width: 500px;
+}
+
+.premiaquiz-admin .premiaquiz-actions {
+	margin-top: 20px;
+}
+
+.premiaquiz-admin .premiaquiz-actions button {
+	margin-right: 10px;
+}
